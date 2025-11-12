@@ -3,7 +3,7 @@ local speaker = peripheral.find("speaker")
 local decoder = dfpwm.make_decoder()
 
 -- adjust chunk size for server performance
-local chunkSize = 8 * 1024  -- smaller than default to reduce distortion
+local chunkSize = 2 * 102  -- smaller than default to reduce distortion
 
 local function playDFPWM(path)
     for chunk in io.lines(path, chunkSize) do
