@@ -24,7 +24,7 @@ permContacts = {
 pd = peripheral.find("playerDetector")
 mon = peripheral.wrap(radMonID)
 mon.setTextScale(0.5)
---trackMon = peripheral.wrap(trackMonID)
+trackMon = peripheral.wrap(trackMonID)
 mon.setTextScale(0.5)
 
 sizeX, sizeY = mon.getSize()
